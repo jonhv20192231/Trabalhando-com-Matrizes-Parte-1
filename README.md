@@ -64,3 +64,17 @@ print(matrix.matriz)
 
 Set segue a mesma lógica do get, mas no caso ele vai inserir um novo valor
 
+
+Class Vector
+Onde recebe atributos como elementos e dimensões.
+Dimensões = Comando Len para contar a quantidade de elementos
+Elements = Converter o objeto em uma lista
+
+#Seleciona a dimensão que você deseja pegar de 0 à 2
+def get(self, i):
+
+#Adiciona um conjunto novos de elementos na dimensão que você deesja de 0 à 2
+def set(self, i, value):
+
+# Construído para evitar <__main__.Vector object at 0x00000145272182F0> na matriz original que foi usada de teste
+def __str__(self):
